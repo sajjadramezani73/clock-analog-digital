@@ -1,0 +1,49 @@
+.clock .div-clock{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #263238;
+    color: #E0E0E0;
+    border: 15px solid #2e3c42 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock .checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.clock .input {
+    position: relative;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    width: 45px;
+    height: 25px;
+    background: #a5a5a5;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: 0.2s;
+}
+
+.clock .input::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 2px;
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.clock .input:checked {background: #40C4FF;}
+.clock .input:checked::after {right: 21px;} 

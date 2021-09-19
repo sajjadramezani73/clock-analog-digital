@@ -1,0 +1,9 @@
+.digital {
+    direction: ltr;
+}
+
+.digital p {
+    font-size: 25px;
+    font-weight: 700;
+    color: #40C4FF;
+}

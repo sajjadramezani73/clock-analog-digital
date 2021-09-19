@@ -1,0 +1,26 @@
+.clockBox {
+    width: 350px;
+    height: 500px;
+    box-shadow: 7px 7px 19px -8px #263238, -7px -7px 19px -8px #ffffff;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.clockBox .title {
+    background: #263238;
+    color: #E0E0E0;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.clockBox .main {
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 448px;
+}
+
+.clockBox .main .div-date {width: 100%;}

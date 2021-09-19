@@ -1,13 +1,85 @@
+@font-face {
+  font-family: 'vazir';
+  font-style: normal;
+  font-weight: 900;
+  src: url('./assets/fonts/Vazir-Black-FD.eot'); /* IE9 Compat Modes */
+  src: local('vazir'), local('vazir'),
+       url('./assets/fonts/Vazir-Black-FD.eot') format('eot'), /* IE6-IE8 */
+       url('./assets/fonts/Vazir-Black-FD.ttf') format('ttf'), /* Super Modern Browsers */
+       url('./assets/fonts/Vazir-Black-FD.woff') format('woff'), /* Modern Browsers */
+       url('./assets/fonts/Vazir-Black-FD.woff2') format('woff2'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'vazir';
+  font-style: normal;
+  font-weight: bold;
+  src: url('./assets/fonts/Vazir-Bold-FD.eot'); /* IE9 Compat Modes */
+  src: local('vazir'), local('vazir'),
+       url('./assets/fonts/Vazir-Bold-FD.eot') format('eot'), /* IE6-IE8 */
+       url('./assets/fonts/Vazir-Bold-FD.ttf') format('ttf'), /* Super Modern Browsers */
+       url('./assets/fonts/Vazir-Bold-FD.woff') format('woff'), /* Modern Browsers */
+       url('./assets/fonts/Vazir-Bold-FD.woff2') format('woff2'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'vazir';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./assets/fonts/Vazir-Medium-FD.eot'); /* IE9 Compat Modes */
+  src: local('vazir'), local('vazir'),
+       url('./assets/fonts/Vazir-Medium-FD.eot') format('eot'), /* IE6-IE8 */
+       url('./assets/fonts/Vazir-Medium-FD.ttf') format('ttf'), /* Super Modern Browsers */
+       url('./assets/fonts/Vazir-Medium-FD.woff') format('woff'), /* Modern Browsers */
+       url('./assets/fonts/Vazir-Medium-FD.woff2') format('woff2'), /* Safari, Android, iOS */
+}
+
+
+@font-face {
+  font-family: 'vazir';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/Vazir-FD.eot'); /* IE9 Compat Modes */
+  src: local('vazir'), local('vazir'),
+       url('./assets/fonts/Vazir-FD.eot') format('eot'), /* IE6-IE8 */
+       url('./assets/fonts/Vazir-FD.ttf') format('ttf'), /* Super Modern Browsers */
+       url('./assets/fonts/Vazir-FD.woff') format('woff'), /* Modern Browsers */
+       url('./assets/fonts/Vazir-FD.woff2') format('woff2'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'vazir';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./assets/fonts/Vazir-Light-FD.eot'); /* IE9 Compat Modes */
+  src: local('vazir'), local('vazir'),
+       url('./assets/fonts/Vazir-Light-FD.eot') format('eot'), /* IE6-IE8 */
+       url('./assets/fonts/Vazir-Light-FD.ttf') format('ttf'), /* Super Modern Browsers */
+       url('./assets/fonts/Vazir-Light-FD.woff') format('woff'), /* Modern Browsers */
+       url('./assets/fonts/Vazir-Light-FD.woff2') format('woff2'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'vazir';
+  font-style: normal;
+  font-weight: 200;
+  src: url('./assets/fonts/Vazir-Thin-FD.eot'); /* IE9 Compat Modes */
+  src: local('vazir'), local('vazir'),
+       url('./assets/fonts/Vazir-Thin-FD.eot') format('eot'), /* IE6-IE8 */
+       url('./assets/fonts/Vazir-Thin-FD.ttf') format('ttf'), /* Super Modern Browsers */
+       url('./assets/fonts/Vazir-Thin-FD.woff') format('woff'), /* Modern Browsers */
+       url('./assets/fonts/Vazir-Thin-FD.woff2') format('woff2'), /* Safari, Android, iOS */
+}
+
 body {
+  direction: rtl;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'vazir';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
